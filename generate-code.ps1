@@ -1,0 +1,1 @@
+& "protoc --go_out=plugins=grpc:"$("$PSScriptRoot\generatedcode")" --proto_path="$($PSScriptRoot)" "$("$PSScriptRoot\helloworld.proto")""
